@@ -2,7 +2,7 @@
 %define		_theme		login-scan-integrated
 
 Summary:	login-scan 'integrated' KDM theme
-Summary(pl):	Motyw KDM login-scan 'integrated'
+Summary(pl.UTF-8):   Motyw KDM login-scan 'integrated'
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	2
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 login-scan 'integrated' KDM Theme.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw KDM login-scan 'integrated'.
 
 %prep
